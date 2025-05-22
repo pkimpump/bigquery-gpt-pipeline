@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WPBot Substitution</title>
+</head>
+<body>
+  <!-- Chat Widget Container -->
+  <div id="chat-widget" style="
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 320px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  ">
+
+    <!-- Chat Header -->
+    <div style="
+      background-color: #0073aa;
+      color: white;
+      padding: 12px;
+      font-weight: bold;
+      font-size: 16px;
+    ">
+      Ask Analytics AI 💬
+    </div>
+
+    <!-- Chat Messages -->
+    <div id="chat-messages" style="
+      flex: 1;
+      padding: 10px;
+      height: 220px;
+      overflow-y: auto;
+      background-color: #f9f9f9;
+      font-size: 14px;
+    ">
+      <div><b>Bot:</b> Hi! Ask me about your metrics.</div>
+    </div>
+
+    <!-- Chat Input -->
+    <div style="
+      border-top: 1px solid #eee;
+      padding: 10px;
+      background-color: #fff;
+    ">
+      <input id="chat-input" type="text" placeholder="Type your question..." style="
+        width: 100%;
+        padding: 8px 10px;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+        font-size: 14px;
+      ">
+    </div>
+  </div>
+
+  <!-- Inline JavaScript for testing -->
+  <script src="WPjavascript.js"></script>
+
+</body>
+</html>
